@@ -1,7 +1,7 @@
 import { Environment, Sky, useGLTF } from "@react-three/drei";
 import BaseScene from "./ui/BaseScene";
 import BaseCharacter from "./ui/BaseCharacter";
-import BaseBox from "./ui/Basebox.jsx";
+// import BaseBox from "./ui/Basebox.jsx";
 import ThreeModel from "./components/ThreeModel.jsx";
 import LivingRoomModel from "./components/LivingRoomModel.jsx";
 
