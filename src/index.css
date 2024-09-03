@@ -34,7 +34,7 @@ canvas {
 .spinner {
   width: 50px;
   height: 50px;
-  border: 5px solid rgba(255, 255, 255, 0.3);
+  border: 5px solid blue;
   border-top: 5px solid white;
   border-radius: 50%;
   animation: spin 1s linear infinite;
@@ -47,4 +47,68 @@ canvas {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* .progress-bar-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+#progress-bar {
+  width: 100%;
+  margin: 200px;
+  height: 40px;
+  background-color: red;
+}
+
+label {
+  color: red;
+  font-size: 2rem;
+} */
+
+/* Add these styles to your CSS file or in a <style> tag in your HTML */
+
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+  color: white; /* Text color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px; /* Fixed width for consistency */
+  margin: auto; /* Center horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+#progress-bar {
+  width: 100%;
+  height: 20px;
+  margin-top: 10px; /* Space between label and progress bar */
+  border-radius: 5px;
+  appearance: none; /* Remove default browser styling */
+}
+
+#progress-bar::-webkit-progress-bar {
+  background-color: #e0e0e0; /* Gray background for progress bar track */
+  border-radius: 5px;
+}
+
+#progress-bar::-webkit-progress-value {
+  background-color: #4caf50; /* Green color for progress bar fill */
+  border-radius: 5px;
+}
+
+#progress-bar::-moz-progress-bar {
+  background-color: #4caf50; /* Green color for Firefox */
+  border-radius: 5px;
 }
