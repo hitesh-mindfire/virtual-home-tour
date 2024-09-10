@@ -15,7 +15,7 @@ const ThreeModel = ({ ...props }) => {
 
   return (
     <group ref={ref} {...props} dispose={null}>
-      <Sparkles count={200} scale={[20, 20, 10]} size={3} speed={2} />
+      {/* <Sparkles count={200} scale={[20, 20, 10]} size={3} speed={2} /> */}
       <mesh
         scale={props.scale}
         castShadow

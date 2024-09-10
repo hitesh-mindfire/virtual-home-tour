@@ -1,5 +1,10 @@
 import { Canvas } from "@react-three/fiber";
-import { Loader, PointerLockControls } from "@react-three/drei";
+import {
+  Environment,
+  Loader,
+  PointerLockControls,
+  Sky,
+} from "@react-three/drei";
 import { Physics } from "@react-three/cannon";
 import Floor from "../components/Floor";
 import Lights from "../components/Lights";
