@@ -3,8 +3,6 @@ import { Html, useProgress } from "@react-three/drei";
 
 const LoadingScreen = () => {
   const { progress } = useProgress();
-  console.log(progress, "loading");
-
   return (
     <Html center>
       <div className="progress-bar-container" style={{ textAlign: "center" }}>

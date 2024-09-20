@@ -6,13 +6,7 @@ const LivingRoomModel = ({ ...props }) => {
   const { nodes, scene, materials } = useGLTF(
     "/assets/stylish_apartment/scene.gltf"
   );
-  console.log(
-    nodes,
-    Object.keys(nodes),
-    materials,
-    Object.keys(materials),
-    "abc"
-  );
+  console.log(nodes, materials);
   const [ref] = useBox((index) => ({
     type: "Static",
     mass: 1,
