@@ -1,8 +1,25 @@
-# React + Vite
+# Virtual Home Tour
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A 3D interactive virtual home tour experience built using React, Three.js, and WebGL technologies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Immersive Experience**: Explore 3D environments interactively.
+- **User-Friendly Navigation**: Intuitive controls for seamless movement.
+- **Customizable Models**: Easily integrate different 3D models for unique tours.
+
+## Controls
+
+- Use the **W**, **A**, **S**, **D** keys to move around.
+- Use the **arrow keys** for directional movement.
+- **Mouse** to look around and interact with the environment.
+
+## Installation
+
+To get started with the Virtual Home Tour, clone the repository and install the necessary dependencies:
+
+```bash
+git clone https://github.com/hitesh-mindfire/virtual-home-tour.git
+cd virtual-home-tour
+npm install
+```
